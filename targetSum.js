@@ -10,5 +10,5 @@ let targetSum = function(num,target){
   }
 }
 let arr =[5, 2, 3, 7];
-let target = 7;
+let target = 9;
 console.log(targetSum(arr,target));
