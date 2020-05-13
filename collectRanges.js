@@ -12,8 +12,6 @@ let collectRanges = function(num){
         result.push(num[begin]+"->"+num[i]) ; 
       }
       begin = i +1;
-      console.log(begin);
-
   }
   return result;
 }
