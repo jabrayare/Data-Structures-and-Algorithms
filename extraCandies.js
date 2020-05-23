@@ -4,7 +4,7 @@ let kidsWithCandies = function(arr,cand){
   let result = [];
   let maxCandies = Math.max(...arr);
   for(let i = 0; i < arr.length; i++){
-      if(maxCandies < arr[i+cand]){
+      if(maxCandies <= (arr[i]+cand)){
         result.push(true);
       }
       else{
