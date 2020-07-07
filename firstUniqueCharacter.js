@@ -7,7 +7,7 @@ let firstUniqueChar = function(s){
 //     else{
 //       map[char]++;
 //     }
-    // Using turnery operator.
+    // Using ternary operator.
       map[char] = (!map[char]) ? 1 : + 1;
   }
   console.log(map);
